@@ -12,7 +12,7 @@ while (alphaBet <= 'z')
 putchar(alphaBet);
 alphaBet++;
 }
-char alphabet = 'A';
+char alphaBet = 'A';
 while (alphaBet <= 'Z')
 {
 putchar(alphaBet);
