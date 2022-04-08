@@ -3,19 +3,21 @@
 #include <time.h>
 /**
  * main - Entry point
- * Description: A program that prints lowercase alphabet in reverse.
+ * Description: A program that prints all possible combinations
+ * of single-digit numbers.
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char base16;
-for (base16 = '0'; base16 <= '9'; base16++)
+int singleDigits;
+for (singleDigits = '0'; singleDigits <= '9'; singleDigits++)
 {
-putchar(base16);
+putchar(singleDigits);
+if (singleDigits != '9')
+{
+putchar(',');
+putchar(' ');
 }
-for (base16 = 'a'; base16 <= 'f'; base16++)
-{
-putchar(base16);
 }
 putchar('\n');
 return (0);
