@@ -54,4 +54,4 @@ What you should learn from this project:
 
 ## Author
 
--   **Benjamin Ofori-Quansah** - [Essilfie](https://github.com/essilfiequansah)
+-   **Benjamin Ofori-Quansah** - [Essilfie Quansah](https://github.com/essilfiequansah)
