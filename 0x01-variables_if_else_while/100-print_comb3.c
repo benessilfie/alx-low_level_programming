@@ -9,19 +9,26 @@
  */
 int main(void)
 {
-int digits;
-for (digits = 0; digits < 90; digits++)
+int number;
+int digits = 0;
+while (digits < 10)
 {
-for()
+number = 0;
+while (number < 10)
 {
-putchar((digits / 10) + '0');
-putchar((digits % 10) + '0');
-}
-if (digits != 89)
+if (digits != number && digits < number)
+{
+putchar('0' + digits);
+putchar('0' + number);
+if (number + digits != 17)
 {
 putchar(',');
 putchar(' ');
 }
+}
+number++;
+}
+digits++;
 }
 putchar('\n');
 return (0);
