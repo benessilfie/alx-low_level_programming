@@ -20,7 +20,8 @@ while (secondDigit < 10)
 firstDigit = 0;
 while (firstDigit < 10)
 {
-if (firstDigit != secondDigit && secondDigit != thirdDigit && thirdDigit < secondDigit && secondDigit < firstDigit)
+if (firstDigit != secondDigit && secondDigit != thirdDigit && thirdDigit < secondDigit 
+&& secondDigit < firstDigit)
 {
 putchar('0' + thirdDigit);
 putchar('0' + secondDigit);
