@@ -29,11 +29,11 @@ What you should learn from this project:
 
 -   Write a program that prints the alphabet in lowercase, followed by a new line.
 
-### [3. When I was having that alphabet soup, I never thought that it would pay off](./4-print_alphabt.c)
+### [3. When I was having that alphabet soup, I never thought that it would pay off](./3-print_alphabets.c)
 
 -   Write a program that prints the alphabet in lowercase (except q and e), followed by a new line.
 
-### [4. alphABET](./3-print_alphabets.c)
+### [4. alphABET](./4-print_alphabt.c)
 
 -   Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 
@@ -57,9 +57,17 @@ What you should learn from this project:
 
 -   Write a program that prints all possible combinations of single-digit numbers.
 
-### [10. 00...99](./10-print_comb2.c)
+### [10. Inventing is a combination of brains and materials. The more brains you use, the less material you need ](./100-print_comb3.c)
 
--   Write a program that prints the numbers from 00 to 99.
+-   Write a program that prints all possible different combinations of two digits.
+
+### [11. The success combination in business is: Do what you do better... and: do more of what you do... ](./101-print_comb4.c)
+
+-   Write a program that prints all possible different combinations of three digits.
+
+### [12. Software is eating the World ](./102-print_comb5.c)
+
+-   Write a program that prints all possible combinations of two two-digit numbers.
 
 ---
 
