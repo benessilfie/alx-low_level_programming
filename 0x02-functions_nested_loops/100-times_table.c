@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_to_98 - A function that prints the n times table, starting with 0.
+ * print_times_table - A function that prints the n times table, starting with 0.
  * @n : input for the n times tables
  * Return: Always 0 (Success)
  */
