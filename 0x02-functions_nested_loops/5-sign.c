@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: A function that prints the sign of a number.
+ * print_sign - A function that prints the sign of a number.
+ * @n : number to check
  * Return: Always 0 (Success)
  */
 int print_sign(int n)
