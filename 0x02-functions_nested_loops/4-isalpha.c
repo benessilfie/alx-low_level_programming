@@ -6,5 +6,6 @@
  */
 int _isalpha(int alphaBet)
 {
-return ((alphaBet >= 97 && alphaBet <= 122) || (alphaBet >= 65 && alphaBet <= 90));
+return ((alphaBet >= 97 && alphaBet <= 122) ||
+(alphaBet >= 65 && alphaBet <= 90));
 }
