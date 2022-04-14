@@ -57,6 +57,14 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 -   Write a function that prints a triangle, followed by a new line.
 
+### [11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic](./100-prime_factor.c)
+
+-   Write a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+
+### [12. Numbers have life; they're not just symbols on paper](./101-print_number.c)
+
+-   Write a function that prints an integer.
+
 ---
 
 ## Author
