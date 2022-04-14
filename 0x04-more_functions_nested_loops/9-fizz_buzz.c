@@ -5,23 +5,31 @@
  */
 int main(void)
 {
-int i;
-char multiplesOfThree[] = "Fizz";
-char multiplesOfFive[] = "Buzz";
-char multiplesofBoth[] = "FizzBuzz";
-for (i = 1; i <= 100; i++)
+int i = 1;
+while (i <= 100)
 {
-if (i == 100)
-printf("%s", multiplesOfFive);
-else if ((i % 3 == 0) && (i % 5 == 0))
-printf("%s ", multiplesofBoth);
-else if (i % 3 == 0)
-printf("%s ", multiplesOfThree);
-else if (i % 5 == 0)
-printf("%s ", multiplesOfFive);
-else
-printf("%d ", i);
+if (i % 3 == 0 && i % 5 == 0)
+{
+printf("FizzBuzz");
 }
-printf("\n");
+else if (i % 3 == 0)
+{
+printf("Fizz");
+}
+else if (i % 5 == 0)
+{
+printf("Buzz");
+}
+else
+{
+printf("%i", i);
+}
+if (i != 100)
+{
+putchar(' ');
+}
+i++;
+}
+putchar('\n');
 return (0);
 }
