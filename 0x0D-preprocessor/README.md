@@ -10,7 +10,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 # Tasks
 
-## Object-like Macro
+## 0. Object-like Macro
 
 Create a header file that defines a macro named `SIZE` as an abbreviation for the token `1024`.
 
@@ -41,7 +41,7 @@ julien@ubuntu:~/0x0c. macro, structures$ ./a
 julien@ubuntu:~/0x0c. macro, structures$
 ```
 
-## Pi
+## 1. Pi
 
 Create a header file that defines a macro named `PI` as an abbreviation for the token `3.14159265359`.
 
@@ -74,7 +74,7 @@ julien@ubuntu:~/0x0c. macro, structures$ ./b
 julien@ubuntu:~/0x0c. macro, structures$
 ```
 
-## File name
+## 2. File name
 
 Write a program that prints the name of the file it was compiled from, followed by a new line.
 
@@ -93,7 +93,7 @@ julien@ubuntu:~/0x0c. macro, structures$ ./cc
 julien@ubuntu:~/0x0c. macro, structures$
 ```
 
-## Function-like macro
+## 3. Function-like macro
 
 Write a function-like macro `ABS(x)` that computes the absolute value of a number `x`.
 
@@ -126,7 +126,7 @@ julien@ubuntu:~/0x0c. macro, structures$ ./d
 julien@ubuntu:~/0x0c. macro, structures$
 ```
 
-## SUM
+## 4. SUM
 
 Write a function-like macro `SUM(x, y)` that computes the sum of the numbers `x` and `y`.
 
