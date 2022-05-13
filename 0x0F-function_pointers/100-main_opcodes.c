@@ -1,25 +1,33 @@
-#include "function_pointers.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <udis86.h>
 /**
- *main -  prints the opcodes of its own main function.
- *@argc: integer value.
- *@argv: character value.
- *Return: 0(success)
- */
+  * main - main function
+  * @argc: int value
+  * @argv: char value
+  *
+  * Return: Nothing.
+  */
 int main(int argc, char *argv[])
 {
-int i;
-if (argc != 2)
+ud_t ud_obj;
+int val = 0, i = 0;
+if (argc == 2)
 {
-printf("Error\n");
-exit(1);
-}
-if (atoi(argv[1]) < 0)
+val = atoi(argv[1]);
+if (val < 0)
 {
 printf("Error\n");
 exit(2);
 }
-for (i = 0; i < atoi(argv[1]) - 1; i++)
-printf("%02hhx ", ((char *)main)[i]);
-printf("%02hhx\n", ((char *)main)[i]);
+ud_unit(&ud_obj);
+ud_set_input_buffer(&ud_obj, argv[1], val);
+ud_set_mode(&ud_obj, 64);
+ud_set_syntax(&ud_obj, UD_SYN_INTEL);
+while (ud_disassemble(&ud_obj))
+{
+printf("\t%s\n", ud_insn_hex(&ud_obj));
+}
+}
 return (0);
 }
