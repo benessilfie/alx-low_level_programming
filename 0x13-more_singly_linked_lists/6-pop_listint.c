@@ -17,5 +17,5 @@ n = (*head)->n;
 free(*head);
 *head = new_head;
 }
-eturn (n);
+Return (n);
 }
