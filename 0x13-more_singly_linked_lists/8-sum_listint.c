@@ -8,11 +8,11 @@
 int sum_listint(listint_t *head)
 {
 listint_t *acc = head;
-int amount = 0;
+int sum = 0;
 while (acc)
 {
-amount += acc->n;
+sum += acc->n;
 acc = acc->next;
 }
-return (amount);
+return (sum);
 }
