@@ -15,7 +15,6 @@ while (mask)
 {
 if (mask & 1)
 count++;
-
 mask >>= 1;
 }
 
